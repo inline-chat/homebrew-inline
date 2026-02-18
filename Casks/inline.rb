@@ -1,9 +1,9 @@
 cask "inline" do
   arch arm: "aarch64", intel: "x86_64"
 
-  version "0.3.3"
-  sha256 arm: "7e520b6570d2be8cf3c9bdbec4d1470ab2821c2ad7c82a126272ad78228c14ee",
-         intel: "e29bbfbb329fdc8c6f280822e720448e481d84166cbe00305a6bb22dc98e635e"
+  version "0.3.4"
+  sha256 arm: "637375ab11ed18aec9cc38b0c0e3bd99f19a24c748ab28d3e121638ee59106bc",
+         intel: "e8cc3b8a266a936fa2e0e9f640de956566da43ced4d92c7c909f07723d06704e"
 
   url "https://github.com/inline-chat/inline/releases/download/cli-v#{version}/inline-cli-#{version}-#{arch}-apple-darwin.tar.gz"
   name "Inline CLI"
