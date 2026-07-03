@@ -2,11 +2,11 @@ cask "inline" do
   arch arm: "aarch64", intel: "x86_64"
   os macos: "apple-darwin", linux: "unknown-linux-gnu"
 
-  version "0.3.6"
-  sha256 arm:          "fec9bc86542dca76d1977292cfcfd6eb32ba9d6ccb4cce849981445e3ce1ae97",
-       intel:        "8067c35e13942bd2f88f39875bf6779577ba61871f50e02205cd54a32b7dc84a",
-       arm64_linux:  "44c1aa002f0a02bbaf236c56d14a1141f99d2b90e3ce0aa953cd19d28efc5986",
-       x86_64_linux: "3bcaa5a62986a643b91c2bcbc961317341c898c91b327fe886d4c50365850413"
+  version "0.3.7"
+  sha256 arm:          "d233bfcac8d333ea0a7f911388f496116be145e326527b18f5265b138e00adc6",
+       intel:        "9783a5e31c14e99e1a7ddc72c7780504140dbbcc5635ed7581a939ceaa707108",
+       arm64_linux:  "935028d457ce4145cf437042cde8d4dacc4471e086bdb43218aa99b02d66491d",
+       x86_64_linux: "8a9b0fc4bd8d7ed8caef21280636e77481c35bca8ad65e82999819d58b05b17e"
 
   url "https://github.com/inline-chat/inline/releases/download/cli-v#{version}/inline-cli-#{version}-#{arch}-#{os}.tar.gz",
       verified: "github.com/inline-chat/inline/"
