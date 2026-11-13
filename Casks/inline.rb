@@ -1,8 +1,8 @@
 cask "inline" do
-  version "0.7.24"
-  sha256 arm:          "5e8e3cd00069be028655268efbb561d943b279ca59968388e426c1744f8fc716",
-         arm64_linux:  "6f5e4edd54b90f56a54a7a52411e4c6ef8afa92c1cc9e4335da6638ea958b686",
-         x86_64_linux: "0bb94248ab4d98b764983f62c4cd2931bb5ba2f7919129ed07fd1ce31fe55c10"
+  version "0.7.25"
+  sha256 arm:          "884ccfcd7b7b54f9b95b158174428f8924c92f7e104646c123f08fed7580ab4b",
+         arm64_linux:  "009cafe2a760ea3f4c3bc21b16bf447776235fadb09441978a81b4e51bd0820d",
+         x86_64_linux: "062f02228ce3a574858c495edd88c935134d883aa5995d419ff0a211c23095fe"
 
   on_macos do
     url "https://github.com/inline-chat/inline/releases/download/cli-v#{version}/inline-cli-#{version}-aarch64-apple-darwin.tar.gz"
